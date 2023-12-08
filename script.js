@@ -6,7 +6,8 @@ function calc() {
       err.innerHTML = "Fill in all fields!"
     }else {
       exp.innerHTML = "-#" + expense
-      bal.innerHTML = "#" + (300000 - expense)
+      bal.innerHTML = "#" + (30000 - expense)
+      Daily.innerHTML = "#" + (10000 - expense)
     }
   
     phone.value = ''
